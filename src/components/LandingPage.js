@@ -107,7 +107,17 @@ const LandingPage = () => {
       {/* Contact Section */}
       <section className="px-8 md:px-16 py-32 border-t border-gray-100">
         <div className="max-w-4xl flex items-center justify-between text-sm">
-          <p className="text-gray-400">By Mike 2025</p>
+          <div className="flex items-center gap-4">
+            <p className="text-gray-400">Designed by Mike</p>
+            <a 
+              href="https://github.com/mikesolieman/my-portfolio"
+              className="text-gray-400 hover:text-blue-600 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source
+            </a>
+          </div>
           <a 
             href="mailto:michael.solieman@gmail.com" 
             className="text-gray-400 hover:text-blue-600 transition-colors"
