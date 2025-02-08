@@ -31,22 +31,31 @@ const LandingPage = () => {
           <h1 className="text-blue-600 font-serif italic text-xl">MS</h1>
         </header>
 
-        <div className="max-w-2xl">
-          <h2 className="text-blue-600 font-serif text-4xl md:text-6xl mb-8">
-            Mike Solieman
-          </h2>
-          <p className="text-gray-800 text-xl leading-relaxed">
-            Current University of Michigan grad student focused on building with code and scotch tape (most recently at Disney Streaming) while pursuing personal projects in mobile and web development.
-            <span className="block mt-4">
-            Previously helped optimize content library management at Disney+. 
-            </span>
-            <span className="block mt-4">
-            I’m also interested in data engineering, crafting pipelines and transforming complex systems at scale.
-            </span>
-            <span className="block mt-4">
-            On the side, I work in the photography studio capturing portraits. My work is on mikesolieman.com.
-            </span>
-          </p>
+        <div className="max-w-5xl flex flex-col md:flex-row gap-12 items-start">
+          <div className="flex-1">
+            <h2 className="text-blue-600 font-serif text-4xl md:text-6xl mb-8">
+              Mike Solieman
+            </h2>
+            <p className="text-gray-800 text-xl leading-relaxed">
+              Current University of Michigan grad student focused on building with code and scotch tape (most recently at Disney Streaming) while pursuing personal projects in mobile and web development.
+              <span className="block mt-4">
+              Previously helped optimize content library management at Disney+. 
+              </span>
+              <span className="block mt-4">
+              I'm also interested in data engineering, crafting pipelines and transforming complex systems at scale.
+              </span>
+              <span className="block mt-4">
+              On the side, I work in the photography studio capturing portraits. My work is on mikesolieman.com.
+              </span>
+            </p>
+          </div>
+          <div className="w-full md:w-96 mt-8 md:mt-0">
+            <img
+              src="/images/profile-photo.jpg"
+              alt="Mike Solieman"
+              className="w-full rounded-lg object-cover shadow-lg"
+            />
+          </div>
         </div>
       </section>
 
