@@ -10,7 +10,7 @@ const LandingPage = () => {
       status: "Active"
     },
     {
-      title: "Streaming Analytics Platform",
+      title: "Streaming Analytics",
       description: "Processed 2M+ rows of streaming data using PostgreSQL and Snowflake",
       tags: ["PostgreSQL", "Snowflake", "Looker"],
       status: "Completed"
@@ -41,7 +41,7 @@ const LandingPage = () => {
             Previously helped optimize content library management at Disney+. 
             </span>
             <span className="block mt-4">
-            I’m also interested in data engineering and crafting pipelines and transforming complex systems at scale.
+            I’m also interested in data engineering, crafting pipelines and transforming complex systems at scale.
             </span>
             <span className="block mt-4">
             On the side, I work in the photography studio capturing portraits. My work is on mikesolieman.com.
