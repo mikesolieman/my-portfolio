@@ -3,15 +3,29 @@ import { useState, useEffect } from 'react';
 
 const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isVisible, setIsVisible] = useState(false);
   
   useEffect(() => {
-    const updatePosition = (e) => {
-      setPosition({ x: e.clientX, y: e.clientY });
+    // Check if device is touch-enabled
+    const isTouchDevice = () => {
+      return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
     };
     
-    window.addEventListener('mousemove', updatePosition);
-    return () => window.removeEventListener('mousemove', updatePosition);
+    // Only show cursor on non-touch devices
+    if (!isTouchDevice()) {
+      setIsVisible(true);
+      
+      const updatePosition = (e) => {
+        setPosition({ x: e.clientX, y: e.clientY });
+      };
+      
+      window.addEventListener('mousemove', updatePosition);
+      return () => window.removeEventListener('mousemove', updatePosition);
+    }
   }, []);
+  
+  // Don't render anything on touch devices
+  if (!isVisible) return null;
   
   return (
     <div 
