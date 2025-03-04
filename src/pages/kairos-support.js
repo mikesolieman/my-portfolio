@@ -1,4 +1,4 @@
-import KairosSupport from '../components/kairosSupport'
+import KairosSupport from '../components/KairosSupport'
 export default KairosSupport
 
 

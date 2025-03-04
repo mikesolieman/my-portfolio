@@ -74,8 +74,7 @@ const KairosSupport = () => {
             <div className="mt-6 p-4 bg-gray-50 rounded-md">
               <h3 className="text-gray-800 font-medium mb-2">Expected Response Times</h3>
               <p className="text-gray-600">
-                We aim to respond to all support inquiries within 24-48 hours during business days.
-                For urgent matters, please include "URGENT" in your email subject line.
+                We aim to respond to all support inquiries within 24-48 hours during business days.git add src/components/KairosSupport.js src/pages/kairos-support.js
               </p>
             </div>
           </div>
