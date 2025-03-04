@@ -106,29 +106,26 @@ const KairosSupport = () => {
             <div>
               <h3 className="text-gray-800 font-medium text-lg mb-2">Information Collection and Use</h3>
               <p className="text-gray-600">
-                Kairos may collect certain information that is not linked to your identity. We believe in providing a safe, 
-                private learning environment for children of all ages. The app currently functions primarily on-device but 
-                may collect anonymized data for product improvement purposes.
+                Kairos does not collect any data from this app. We believe in providing a safe, 
+                private learning environment for children of all ages. The app functions entirely on-device and 
+                does not require any account creation, login, or personal details.
               </p>
             </div>
             
             <div>
-              <h3 className="text-gray-800 font-medium text-lg mb-2">Data Not Linked to You</h3>
+              <h3 className="text-gray-800 font-medium text-lg mb-2">No Data Collection</h3>
               <p className="text-gray-600">
-                The following data may be collected but is not linked to your identity:
+                We prioritize your privacy and have designed Kairos to function without collecting any data.
+                All activities, progress, and settings are stored locally on your device and are not transmitted
+                to our servers or any third parties.
               </p>
-              <ul className="list-disc pl-5 mt-2 text-gray-600 space-y-1">
-                <li><strong>Usage Data</strong>: Information about how you use the app, including features accessed and time spent.</li>
-                <li><strong>Identifiers</strong>: Device identifiers that cannot personally identify you.</li>
-                <li><strong>Diagnostics</strong>: App performance data, crash logs, and other technical information.</li>
-              </ul>
             </div>
             
             <div>
               <h3 className="text-gray-800 font-medium text-lg mb-2">Third-Party Services</h3>
               <p className="text-gray-600">
-                Kairos does not integrate with any third-party services that would collect user data. 
-                There are no advertisements, in-app purchases, or external links within the app.
+                Kairos does not integrate with any third-party services. There are no analytics, tracking tools,
+                advertisements, in-app purchases, or external links within the app that could potentially collect data.
               </p>
             </div>
             
