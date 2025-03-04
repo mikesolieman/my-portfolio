@@ -74,7 +74,7 @@ const KairosSupport = () => {
             <div className="mt-6 p-4 bg-gray-50 rounded-md">
               <h3 className="text-gray-800 font-medium mb-2">Expected Response Times</h3>
               <p className="text-gray-600">
-                We aim to respond to all support inquiries within 24-48 hours during business days.git add src/components/KairosSupport.js src/pages/kairos-support.js
+                We aim to respond to all support inquiries within 24-48 hours during business days.
               </p>
             </div>
           </div>
@@ -118,7 +118,6 @@ const KairosSupport = () => {
                 The following data may be collected but is not linked to your identity:
               </p>
               <ul className="list-disc pl-5 mt-2 text-gray-600 space-y-1">
-                <li><strong>Contact Info</strong>: Optional contact information that is not associated with your identity.</li>
                 <li><strong>Usage Data</strong>: Information about how you use the app, including features accessed and time spent.</li>
                 <li><strong>Identifiers</strong>: Device identifiers that cannot personally identify you.</li>
                 <li><strong>Diagnostics</strong>: App performance data, crash logs, and other technical information.</li>
