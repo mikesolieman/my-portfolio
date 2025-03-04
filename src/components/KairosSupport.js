@@ -77,6 +77,16 @@ const KairosSupport = () => {
                 We aim to respond to all support inquiries within 24-48 hours during business days.
               </p>
             </div>
+            
+            <div className="mt-6">
+              <p className="text-gray-800">
+                For privacy information, please visit our{' '}
+                <Link href="/kairos-privacy" className="text-blue-600 hover:text-blue-800 transition-colors">
+                  Privacy Policy
+                </Link>
+                .
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -97,65 +107,15 @@ const KairosSupport = () => {
         </div>
       </section>
 
-      {/* Privacy Policy */}
-      <section className="px-8 md:px-16 py-16 border-t border-gray-100">
-        <div className="max-w-3xl">
-          <h2 className="text-blue-600 font-serif text-2xl mb-8">Privacy Policy</h2>
-          
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-gray-800 font-medium text-lg mb-2">Information Collection and Use</h3>
-              <p className="text-gray-600">
-                Kairos does not collect any data from this app. We believe in providing a safe, 
-                private learning environment for children of all ages. The app functions entirely on-device and 
-                does not require any account creation, login, or personal details.
-              </p>
-            </div>
-            
-            <div>
-              <h3 className="text-gray-800 font-medium text-lg mb-2">No Data Collection</h3>
-              <p className="text-gray-600">
-                We prioritize your privacy and have designed Kairos to function without collecting any data.
-                All activities, progress, and settings are stored locally on your device and are not transmitted
-                to our servers or any third parties.
-              </p>
-            </div>
-            
-            <div>
-              <h3 className="text-gray-800 font-medium text-lg mb-2">Third-Party Services</h3>
-              <p className="text-gray-600">
-                Kairos does not integrate with any third-party services. There are no analytics, tracking tools,
-                advertisements, in-app purchases, or external links within the app that could potentially collect data.
-              </p>
-            </div>
-            
-            <div>
-              <h3 className="text-gray-800 font-medium text-lg mb-2">Changes to This Policy</h3>
-              <p className="text-gray-600">
-                Any future changes to this privacy policy will be posted on this page. The policy was last updated on March 1, 2025.
-              </p>
-            </div>
-            
-            <div>
-              <h3 className="text-gray-800 font-medium text-lg mb-2">Contact Us</h3>
-              <p className="text-gray-600">
-                If you have any questions regarding privacy while using Kairos, please contact us at{' '}
-                <a 
-                  href="mailto:kairos.timeapp@gmail.com" 
-                  className="text-blue-600 hover:text-blue-800 transition-colors"
-                >
-                  kairos.timeapp@gmail.com
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <section className="px-8 md:px-16 py-16 border-t border-gray-100">
         <div className="max-w-3xl flex flex-col md:flex-row items-center justify-between text-sm">
-          <p className="text-gray-400 mb-4 md:mb-0">© 2025 Kairos Time Learning App</p>
+          <div className="flex flex-col md:flex-row items-center md:space-x-4 mb-4 md:mb-0">
+            <p className="text-gray-400">© 2025 Kairos Time Learning App</p>
+            <Link href="/kairos-privacy" className="text-gray-400 hover:text-blue-600 transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
           <a 
             href="mailto:kairos.timeapp@gmail.com" 
             className="text-gray-400 hover:text-blue-600 transition-colors"
