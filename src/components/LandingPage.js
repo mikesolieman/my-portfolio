@@ -36,7 +36,7 @@ const LandingPage = () => {
             Mike Solieman
           </h2>
           <p className="text-gray-800 text-xl leading-relaxed">
-            Software developer and designer based in Los Angeles.
+            Analytics & Insights | Based in Los Angeles.
           </p>
         </div>
       </section>
