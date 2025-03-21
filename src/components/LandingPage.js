@@ -31,14 +31,24 @@ const LandingPage = () => {
           <h1 className="text-blue-600 font-serif italic text-xl">MS</h1>
         </header>
 
-        <div className="max-w-3xl">
-          <h2 className="text-blue-600 font-serif text-4xl md:text-6xl mb-8">
-            Mike Solieman
-          </h2>
-          <p className="text-gray-800 text-xl leading-relaxed">
-            Analytics & Insights | Prev Disney+, Hulu, Amazon
+        <div className="max-w-2xl">
+        <h2 className="text-blue-600 font-serif text-4xl md:text-6xl mb-8">
+          Mike Solieman
+        </h2>
+        <div className="space-y-3`">
+          <p className="text-gray-800 text-base leading-relaxed">
+            Hey! I'm a data analyst focusing on analytics and insights.
+          </p>
+          
+          <p className="text-gray-800 text-base leading-relaxed">
+            Previously, I worked at Disney Streaming (Disney+/Hulu), developing cost efficiency metrics and content performance analytics. Before that, I was at Amazon (Prime Video/Amazon Studios), working on financial forecasting and content spend analysis.
+          </p>
+          
+          <p className="text-gray-800 text-base leading-relaxed">
+            I'd love to hear from you -- michael.solieman [at] gmail [dot] com or <a href="https://www.linkedin.com/in/michaelsolieman" className="text-blue-600 hover:underline">LinkedIn</a>
           </p>
         </div>
+      </div>
       </section>
 
       {/* Projects Section */}
