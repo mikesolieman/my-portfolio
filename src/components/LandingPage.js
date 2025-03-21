@@ -35,7 +35,7 @@ const LandingPage = () => {
         <h2 className="text-blue-600 font-serif text-4xl md:text-6xl mb-8">
           Mike Solieman
         </h2>
-        <div className="space-y-3`">
+        <div className="space-y-3">
           <p className="text-gray-800 text-base leading-relaxed">
             Hey! I'm a data analyst focusing on analytics and insights.
           </p>
