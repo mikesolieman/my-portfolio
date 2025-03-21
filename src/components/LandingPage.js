@@ -36,7 +36,7 @@ const LandingPage = () => {
             Mike Solieman
           </h2>
           <p className="text-gray-800 text-xl leading-relaxed">
-            Analytics & Insights | Based in Los Angeles
+            Analytics & Insights | Prev Disney+, Hulu, Amazon
           </p>
         </div>
       </section>
